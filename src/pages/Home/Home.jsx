@@ -6,6 +6,8 @@ import Widget from "../../components/widgets/Widget";
 import Featured from "../../components/Featured/Featured";
 import Chart from "../../components/Chart/Chart";
 
+import List from "../../components/table/Table";
+
 const Home = () => {
   return (
     <div className="home">
@@ -21,6 +23,10 @@ const Home = () => {
         <div className="charts">
           <Featured />
           <Chart />
+        </div>
+        <div className="listContainer">
+          <div className="listTitle">Latest Transaction</div>
+          <List />
         </div>
       </div>
     </div>
